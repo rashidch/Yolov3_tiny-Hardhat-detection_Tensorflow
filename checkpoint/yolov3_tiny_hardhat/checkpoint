@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-step_12000_loss_1.066590_lr_0.0006382392"
+all_model_checkpoint_paths: "model-step_4000_loss_4.825411_lr_0.000884736"
+all_model_checkpoint_paths: "model-step_6000_loss_0.467320_lr_0.0008153726"
+all_model_checkpoint_paths: "model-step_8000_loss_2.752120_lr_0.0007514474"
+all_model_checkpoint_paths: "model-step_10000_loss_0.452858_lr_0.0006925339"
+all_model_checkpoint_paths: "model-step_12000_loss_1.066590_lr_0.0006382392"
