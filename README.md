@@ -17,7 +17,7 @@ Hardhat detection using Yolov3_tiny
 ```shell
 python test_single_image.py ./data/demo_data/google_image.jpg
 ```
-[[https://github.com/rashidch/Yolov3_tiny-Hardhat-detection_Tensorflow/blob/master/detection%20results_images%20%2B%20videos/test_result_google_image.jpg|alt=octocat]]
+![Alt text] (?raw=true)
 
 (2) Single image test demo using pb file:
 
