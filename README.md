@@ -1,8 +1,8 @@
-#  YOLOv3 and YOLOv3_tiny for TensorFlow
+#  Hardhat (Helmet) detection from construction site using YOLOv3_tiny with TensorFlow
 
 ### 1. Introduction
 
-Add YOLOv3_tiny and data augment(clip, brighten, change saturation)
+Hardhat detection using Yolov3_tiny
 
 ### 2. Requirements
 
@@ -15,8 +15,9 @@ Add YOLOv3_tiny and data augment(clip, brighten, change saturation)
 (1) Single image test demo using ckpt file:
 
 ```shell
-python test_single_image.py ./data/demo_data/car.jpg
+python test_single_image.py ./data/demo_data/google_image.jpg
 ```
+![Alt text] (?raw=true)
 
 (2) Single image test demo using pb file:
 
@@ -25,6 +26,10 @@ python test_single_image_pb.py ./data/demo_data/car.jpg
 ```
 
 ### 4. Training
+
+Hardhat dataset: pascal voc format: https://drive.google.com/drive/folders/12WtXQyM-7jWvWPtCXZlnycsIK72ClHgu?usp=sharing
+
+Dataset credits: https://github.com/wujixiu/helmet-detection
 
 #### 4.1 Data preparation 
 
@@ -101,9 +106,13 @@ the yolov3 using  `darknet53`, the yolov3_tiny using `darknet19`
 
 ### Credits:
 
-I refer to many fantastic repos during the implementation:
+The code is inspired from following repos :
 
 https://github.com/wizyoung/YOLOv3_TensorFlow
+
+https://github.com/Huangdebo/YOLOv3_tiny_TensorFlow
+
+Dataset credits: https://github.com/wujixiu/helmet-detection
 
 
 
