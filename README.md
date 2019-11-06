@@ -17,6 +17,7 @@ Hardhat detection using Yolov3_tiny
 ```shell
 python test_single_image.py ./data/demo_data/car.jpg
 ```
+detection results_images + videos/test_result_google_image.jpg
 
 (2) Single image test demo using pb file:
 
