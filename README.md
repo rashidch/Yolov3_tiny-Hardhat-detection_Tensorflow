@@ -105,10 +105,12 @@ the yolov3 using  `darknet53`, the yolov3_tiny using `darknet19`
 
 ### Credits:
 
-The code is adapted for hardhat detection task from following repos:
+The code is inspired from following repos :
 
 https://github.com/wizyoung/YOLOv3_TensorFlow
+
 https://github.com/Huangdebo/YOLOv3_tiny_TensorFlow
+
 Dataset credits: https://github.com/wujixiu/helmet-detection
 
 
