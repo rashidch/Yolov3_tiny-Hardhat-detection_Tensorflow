@@ -12,18 +12,23 @@ Hardhat detection using Yolov3_tiny
 
 ### 3. Running demos
 
-(1) Single image test demo using ckpt file:
+#### (1) Single image test demo using ckpt file:
 
 ```shell
 python test_single_image.py ./data/demo_data/google_image.jpg
 ```
-![Alt text] (?raw=true)
 
-(2) Single image test demo using pb file:
+#### test image from google
+![detection result](./detection%20results/test_result_google_image.jpg)
 
-```shell
-python test_single_image_pb.py ./data/demo_data/car.jpg
-```
+#### test image from dataset
+![detection result](./detection%20results/16.jpg)
+
+
+
+
+
+#### (2) Video demo: https://drive.google.com/drive/folders/1YirwBUWwvecjgk-MwDXk1hZaJJGJSEJ_?usp=sharing
 
 ### 4. Training
 
