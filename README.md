@@ -41,14 +41,14 @@ Dataset credits: https://github.com/wujixiu/helmet-detection
 (1) annotation file
 
 Generate `train.txt/val.txt/test.txt` files under `./data/my_data/` directory. 
-One line for one image, in the format like `image_absolute_path box_1 box_2 ... box_n`. 
+One line for one image, in the format like `image_absolute_path image size box_1 box_2 ... box_n`. 
 Box_format: `label_index x_min y_min x_max y_max`.(The origin of coordinates is at the left top corner.)
 
 For example:
 
 ```
-xxx/xxx/1.jpg 0 453 369 473 391 1 588 245 608 268
-xxx/xxx/2.jpg 1 466 403 485 422 2 793 300 809 320
+577 /home/rashid/YOLOv3_TensorFlow-master/data/my_data/GDUT-HWD/JPEGImages/01457.jpg 440 293 1 235 84 258 110 1 291 93 307 115 1 320 96 335 114
+743 /home/rashid/YOLOv3_TensorFlow-master/data/my_data/GDUT-HWD/JPEGImages/00179.jpg 1300 956 1 503 80 674 313 1 258 1 423 222
 ...
 ```
 
