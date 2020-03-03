@@ -1,3 +1,4 @@
-place your data files here.
+place your data files here like this.
 
-image path and name, classID, xl, yl, xr, yr, classID, xl, yl, xr, yr ...
+577 /home/rashid/YOLOv3_TensorFlow-master/data/my_data/GDUT-HWD/JPEGImages/01457.jpg 440 293 1 235 84 258 110 1 291 93 307 115 1 320 96 335 114
+743 /home/rashid/YOLOv3_TensorFlow-master/data/my_data/GDUT-HWD/JPEGImages/00179.jpg 1300 956 1 503 80 674 313 1 258 1 423 222
